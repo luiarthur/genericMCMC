@@ -1,9 +1,9 @@
 # genericMCMC
 My template C++ code to be used with other C++ code in Rcpp
 
-See [this][1] for more help.
+See [the devtools doc][1] and the [Rcpp (section 3.6) doc][2] for
+more help.
 
-[1]: http://r-pkgs.had.co.nz/src.html
 
 # Developers
 
@@ -14,3 +14,6 @@ R -e "roxygen2::roxygenise()"
 R -e "devtools::install_github('luiarthur/genericMCMC')"
 ```
 
+
+[1]: http://r-pkgs.had.co.nz/src.html
+[2]: http://dirk.eddelbuettel.com/code/rcpp/Rcpp-attributes.pdf
