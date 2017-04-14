@@ -10,6 +10,11 @@ more help.
 ```bash
 # Generate docs
 R -e "roxygen2::roxygenise()"
+
+# git add .
+# git commit
+# git push
+
 # Install
 R -e "devtools::install_github('luiarthur/genericMCMC')"
 ```
