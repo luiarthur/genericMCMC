@@ -10,5 +10,7 @@ See [this][1] for more help.
 ```bash
 # Generate docs
 R -e "roxygen2::roxygenise()"
+# Install
+R -e "devtools::install_github('luiarthur/genericMCMC')"
 ```
 

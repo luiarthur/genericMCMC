@@ -1,3 +1,4 @@
+// [[Rcpp::interfaces(cpp)]]
 #include<Rcpp.h>
 #include<functional> // std::function
 #include<map>
@@ -6,9 +7,6 @@ using namespace Rcpp;
 
 // Enable C++11 via this plugin (Rcpp 0.10.3 or later)
 // [[Rcpp::plugins("cpp11")]]
-
-// Create interface to cpp
-// [[Rcpp::interfaces(cpp)]]
 
 // Generic Gibbs Sampler
 template <typename S>
