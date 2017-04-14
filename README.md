@@ -20,5 +20,5 @@ R -e "devtools::install_github('luiarthur/genericMCMC')"
 ```
 
 
-[1]: http://r-pkgs.had.co.nz/src.html
+[1]: http://r-pkgs.had.co.nz/src.html#cpp-export
 [2]: http://dirk.eddelbuettel.com/code/rcpp/Rcpp-attributes.pdf
